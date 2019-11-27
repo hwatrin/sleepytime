@@ -28,19 +28,19 @@ data[1][seven] = "You are dead.";
 
 data[4][one] = "You likely feel pretty tired and are slightly irritable. Your memory will not be working at full capacity and your emotions will be all over the place. This should be correctable by getting good sleep tomorrow.";
 data[4][two] = "Each day you sleep like this your memory and ability to perform daily tasks is continuing to get worse, however you don't notice it. Your immune system is weaker than at normal levels.";
-data[4][three] = "";
-data[4][four] = "Your performance on cognitive tasks is now the equivelant of somebody who has stayed up for two days straight. You are much more vulnerable to disease, and you'll likely begin to gain more fat and lose muscle. It will take some time to recover from this sleep debt.";
+data[4][three] = "You're tired, irritable, and unpleasant to be around. Your cognitive abilities continue to worsen day by day.";
+data[4][four] = "Your performance on cognitive tasks is now worse than that of somebody who has stayed up for two days straight. You are much more vulnerable to disease, and you'll likely begin to gain more fat and lose muscle. It will take some time to recover from this sleep debt.";
 data[4][five] = "It's likely you no longer notice it because you've been doing it for so long, but your mental performance is far worse than it could be if you were sleeping more each night. You're more overweight than you would be, and don't have near as much energy as you otherwise would.";
 data[4][six] = "At this point some of the health effects you have experienced are irreversible.You are at increased risk for heart disease and alzheimer's, however you should be fine if you change now. Your ability to perform cognitive tasks is dismal, and you have trouble remembering things. You are much worse in school and in life than you otherwise would be.";
 data[4][seven] = "It's quite likely that due to your bad sleep habits over life you have experienced either alzheimer's, heart disease, or cancer. You're probably overweight, low on energy, and easily upset.";
 
-data[6][one] = "You likely feel pretty tired and are slightly irritable. Your memory will not be working at full capacity and your emotions will be all over the place. This should be correctable by getting good sleep tomorrow.";
-data[6][two] = "Each day you sleep like this your memory and ability to perform daily tasks is continuing to get worse, however you don't notice it. Your immune system is weaker than at normal levels.";
-data[6][three] = "";
-data[6][four] = "";
-data[6][five] = "";
-data[6][six] = "";
-data[6][seven] = "";
+data[6][one] = "Your condition isn't much better than if you were sleeping four hours a night. You likely feel pretty tired and are slightly irritable. Your memory will not be working at full capacity and your emotions will be all over the place. This should be correctable by getting good sleep tomorrow.";
+data[6][two] = "Your condition isn't much better than if you were sleeping four hours a night. Each day you sleep like this your memory and ability to perform daily tasks is continuing to get worse, however you don't notice it. Your immune system is weaker than at normal levels.";
+data[6][three] = "Your condition isn't much better than if you were sleeping four hours a night. You're tired, irritable, and unpleasant to be around. Your cognitive abilities continue to worsen day by day.";
+data[6][four] = "Your condition isn't much better than if you were sleeping four hours a night. Your performance on cognitive tasks is the same as somebody who has stayed up for two days straight. You are much more vulnerable to disease, and you'll likely begin to gain more fat and lose muscle. It will take some time to recover from this sleep debt.";
+data[6][five] = "You are low on engergy, putting on body fat, and your memory is not functioning at full capacity.";
+data[6][six] = "At this point you may think that you are capable of sleeping only six hours a night, or you may feel terrible all of the time. Your used to your cognitive deficits, low levels of energy, and other negative health effects, and may think they are normal. They are not though and you could be living a much healthier life.";
+data[6][seven] = "You are at a much higher risk for alzheimer's, heart disease, and cancer. Your intelligence is lower than if you had gotten proper sleep, and have health of somebody much older than you.";
 
 data[7][one] = "It's hard to tell what effects you will feel at this level of sleep. 7 hours is enough for some people, it is not enough for others. If you are someone who performs well on low amounts of sleep then check the results at 8 hours. If you are someone who does not perform well on low amounts of sleep, then check the results on 6 hours.";
 data[7][two] = data[7][one];
