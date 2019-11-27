@@ -8,6 +8,7 @@ import BootstrapBottom from "./components/config/BootstrapBottom";
 import Selector from "./components/Forms/Selector";
 import Slider from "./components/Forms/Slider";
 import Results from "./components/Results";
+import Footer from './components/Footer';
 
 class App extends React.Component {
   state = {
@@ -38,6 +39,7 @@ class App extends React.Component {
           </div>
           <BootstrapBottom />
         </div>
+        <Footer />
       </div>
     );
   };

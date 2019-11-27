@@ -32,7 +32,7 @@ class Results extends React.Component {
       this.setState({
         hours: 7
       });
-    } else if (selected <= 9) {
+    } else if (selected <= 10) {
       this.setState({
         hours: 9
       });
