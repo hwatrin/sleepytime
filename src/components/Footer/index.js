@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {isMobile} from 'react-device-detect';
 
 const footerLink = {
     // color: '#fff',
@@ -13,15 +14,17 @@ const tableItem = {
  * @author Hunter Watrin
  */
 class Footer extends React.Component {
-    render = () => (
-        <div style = {{backgroundColor: '#404040', justifyContent: 'center', alignItems: 'center', marginTop: '15vh'}}>
+    render = () => {
+        if(!isMobile){
+
+        return (
+        <div style = {{backgroundColor: '#404040', justifyContent: 'center', alignItems: 'center', width: '100vw', marginTop: '15vh'}}>
             <div className = "container" style = {{maxHeight: 200}}>
-            <h3 style = {{color: '#fff'}}>Helpful Links on the Effects of Sleep</h3>
+            <h3 style = {{color: '#fff', paddingTop: 20}}>Helpful Links on the Effects of Sleep</h3>
             <table>
                 <tr>
                     <td style = {tableItem}><a target="_blank" style = {footerLink} href = "https://www.ted.com/talks/matt_walker_sleep_is_your_superpower?language=en">Sleep is your superpower</a></td>
                     <td style = {tableItem}><a style = {footerLink} target="_blank" href = "https://www.webmd.com/g00/sleep-disorders/physical-side-effects-oversleeping?i10c.ua=1&i10c.encReferrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%3d&i10c.dv=25">Don't sleep too much</a></td>
-
                 </tr>
                 <tr>
                     <td style = {tableItem}><a style = {footerLink} target="_blank" href = "https://jamesclear.com/sleep">Practical Guide to Get More Sleep</a></td>
@@ -39,7 +42,12 @@ class Footer extends React.Component {
             </table>
             </div>
         </div>
-    )
+    )}
+    else {
+        return <></>
+    }
+}
+
 }
 
 export default Footer;
