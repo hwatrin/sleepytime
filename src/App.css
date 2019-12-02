@@ -1,11 +1,14 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.89) 0%, rgba(54, 60, 232, 0.93) 100%, #808080 100%);
+
+}
+
 .App {
   width: 100dw;
   height: 100vh;
-background: linear-gradient(rgba(0, 0, 0, 0.89) 0%, rgba(54, 60, 232, 0.93) 100%, #808080 100%);
-border: 1px solid #707070;
-align-items: flex-start;
+  border: 1px solid #707070;
+  align-items: flex-start;
 }
-
 .container {
   height: 75vh;
 }
